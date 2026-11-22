@@ -1,0 +1,13 @@
+{
+  "name": "flipstudio",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Studio flipbook PDF berbasis browser.",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "dev": "node scripts/serve.mjs",
+    "test": "node --test scripts/book.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
